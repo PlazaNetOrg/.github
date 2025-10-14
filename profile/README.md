@@ -28,7 +28,7 @@ Here are the core repositories you probably want to contribute to:
   - A **Game Launcher** with optional **Accounts** and **PlazaNet** integration.<br>
     _Optionally uses Accounts and PlazaNet._
   - _Launches games, allows browsing PlazaNet, and see friends status._
-  ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
+  - ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
 
 - (1) – Both PlazaNet and GamePlaza connect through Accounts.
   - PlazaNet needs it to let users log in and interact.
