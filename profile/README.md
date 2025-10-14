@@ -6,7 +6,7 @@ PlazaNet is a friendly, creative social network built on the belief that online 
 It’s completely self-hostable, open source, and designed to make connecting with others fun again.
 
 ## Main Repositories
-Here are the core repositories you probably want to contribute to:
+Here are the core repositories you would probably like to contribute to:
 - [Accounts](https://github.com/PlazaNetOrg/Accounts)
   - **Account Server** for both **PlazaNet** and/or **GamePlaza**! (1)
   - _Handles authentication, user management, and friends._
