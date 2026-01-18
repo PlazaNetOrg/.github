@@ -10,8 +10,8 @@ Here are the core repositories you would probably like to contribute to:
 - [Accounts](https://github.com/PlazaNetOrg/Accounts)
   - **Account Server** for both **PlazaNet** and/or **GamePlaza**! (1)
   - _Handles authentication, user management, and friends._
-  - ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+  - ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+  ![Gin](https://img.shields.io/badge/Gin-000000?style=for-the-badge&logo=gin&logoColor=white)
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
@@ -19,12 +19,12 @@ Here are the core repositories you would probably like to contribute to:
   - The **Social Network** itself — your digital plaza to connect, share, and play!<br>
     _Requires Accounts to work._
   - _Handles posts, followers, communities, and PlazaNet-specific user data._
-  - ![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-  ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+  - ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+  ![Gin](https://img.shields.io/badge/Gin-000000?style=for-the-badge&logo=gin&logoColor=white)
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-- ~~[GamePlaza](#)~~ _(Development currently paused)_
+- ~~[GamePlaza](https://github.com/PlazaNetOrg/GamePlaza)~~ _(Development currently paused)_
   - A **Game Launcher** with optional **Accounts** and **PlazaNet** integration.<br>
     _Optionally uses Accounts and PlazaNet._
   - _Launches games, allows browsing PlazaNet, and see friends status._
