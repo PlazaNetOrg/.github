@@ -1,48 +1,79 @@
 # Welcome to PlazaNet!
-[**PlazaNet's Website**](https://plazanet.org)
 
-PlazaNet is a friendly, creative social network built on the belief that online communities should feel personal and expressive — just like the classic Nintendo Miiverse, reimagined for today!
+[**PlazaNet.org**](https://plazanet.org)  
+PlazaNet is a friendly, creative social network inspired by the spirit of classic Nintendo Miiverse — reimagined for today.  
 
-It’s completely self-hostable, open source, and designed to make connecting with others fun again.
+It’s fully **self-hostable**, **open source**, and built to make online communities feel personal, expressive, and fun again. Share drawings, connect with friends, join themed hubs (communities), and more — all while keeping things light and nostalgic.
 
-## Main Repositories
-Here are the core repositories you would probably like to contribute to:
-- [Accounts](https://github.com/PlazaNetOrg/Accounts)
-  - **Account Server** for both **PlazaNet** and/or **GamePlaza**! (1)
-  - _Handles authentication, user management, and friends._
-  - ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+## Quick Links to Get Started
+
+No time to read everything? Jump straight in:
+
+- [Accounts Server](https://github.com/PlazaNetOrg/Accounts) — Authentication & user management (in development)
+- [PlazaNet Server](https://github.com/PlazaNetOrg/PlazaNet) — The core social backend (in development)
+- [GamePlaza Launcher](https://github.com/PlazaNetOrg/GamePlaza) — Game launcher with social integration (planned)
+- [PlazaNet Mobile Client](https://github.com/PlazaNetOrg/ClientMobile) — Android & iOS app (planned)
+- [PlazaNet PS Vita Client](https://github.com/PlazaNetOrg/ClientVita) — PlayStation Vita app (planned)
+- [PlazaNet 3DS Client](https://github.com/PlazaNetOrg/Client3DS) — Nintendo 3DS app (planned)
+
+## Core Components
+
+### Servers
+
+- **[Accounts](https://github.com/PlazaNetOrg/Accounts)**  
+  Central authentication server for PlazaNet and GamePlaza.  
+  Handles login, user profiles, friends lists, and other information.  
+  ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
   ![Gin](https://img.shields.io/badge/Gin-000000?style=for-the-badge&logo=gin&logoColor=white)
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-- ~~[PlazaNet](#)~~
-  - The **Social Network** itself — your digital plaza to connect, share, and play!<br>
-    _Requires Accounts to work._
-  - _Handles posts, followers, communities, and PlazaNet-specific user data._
-  - ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+
+- **[PlazaNet](https://github.com/PlazaNetOrg/PlazaNet)** _(Development starting soon)_  
+  The heart of the social network — posts, communities, followers, reactions, and PlazaNet-specific features.  
+  Requires the Accounts server for authentication.  
+  ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
   ![Gin](https://img.shields.io/badge/Gin-000000?style=for-the-badge&logo=gin&logoColor=white)
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-  ![JS](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-- ~~[GamePlaza](https://github.com/PlazaNetOrg/GamePlaza)~~ _(Development currently paused)_
-  - A **Game Launcher** with optional **Accounts** and **PlazaNet** integration.<br>
-    _Optionally uses Accounts and PlazaNet._
-  - _Launches games, allows browsing PlazaNet, and see friends status._
-  - ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
-- (1) – Both PlazaNet and GamePlaza connect through Accounts.
-  - PlazaNet needs it to let users log in and interact.
-  - GamePlaza can use it to show friends statuses
-    - And PlazaNet activity if PlazaNet is installed!
+> **Note:** The Accounts server provides unified authentication and friends features for both PlazaNet and GamePlaza.  
+> This design makes it easy for users who only want the GamePlaza launcher (with its social features like seeing friends online) to run just the Accounts server — without needing to host the full PlazaNet social backend.
 
-### Other Repositories
-- [Website](https://github.com/PlazaNetOrg/Website) - Official Website for **PlazaNet** — the home of updates, and client downloads.
-  - ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+### Clients
+
+- ~~**[GamePlaza](https://github.com/PlazaNetOrg/GamePlaza)**~~ _(Development currently paused)_  
+  A game launcher with optional Accounts and PlazaNet integration.  
+  Launches games, browses PlazaNet content, and shows friends' online status.  
+  ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
+
+- ~~**[ClientMobile](https://github.com/PlazaNetOrg/ClientMobile)**~~ _(Development not started)_  
+  Cross-platform mobile app for Android and iOS.  
+  ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+  ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+
+- ~~**[ClientVita](https://github.com/PlazaNetOrg/ClientVita)**~~ _(Development not started)_  
+  Official homebrew client for PlayStation Vita.  
+  ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+  ![VitaSDK](https://img.shields.io/badge/VitaSDK-0175C2?style=for-the-badge&logo=playstation&logoColor=white)
+
+- ~~**[Client3DS](https://github.com/PlazaNetOrg/Client3DS)**~~ _(Development not started)_  
+  Official homebrew client for Nintendo 3DS.  
+  ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+  ![devkitPro](https://img.shields.io/badge/devkitPro-6A1B9A?style=for-the-badge&logo=cmake&logoColor=white)
+
+## Other Repositories
+
+- **[Website](https://github.com/PlazaNetOrg/Website)**  
+  The official landing page (plazanet.org) — home of news, updates, and client downloads.  
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Learn the Design
-Want to understand how PlazaNet design works behind the scenes? Read [this document](https://github.com/PlazaNetOrg/Design) to understand everything about it!
+## Design & Branding
+
+Want to contribute to the look & feel? Check out the [Design repo](https://github.com/PlazaNetOrg/Design) for color palettes, typography, mockups, UI kits, and guidelines.
 
 ----
 
-**PlazaNet** — where creativity and community connect!
+**PlazaNet** — where creativity meets community again!  
