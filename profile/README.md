@@ -11,7 +11,7 @@ No time to read everything? Jump straight in:
 
 - [Accounts Server](https://github.com/PlazaNetOrg/Accounts) — Authentication & user management (in development)
 - [PlazaNet Server](https://github.com/PlazaNetOrg/PlazaNet) — The core social backend (in development)
-- [GamePlaza Launcher](https://github.com/PlazaNetOrg/GamePlaza) — Game launcher with social integration (planned)
+- [GamePlaza Launcher](https://github.com/PlazaNetOrg/GamePlaza) — Android Game launcher with social integration (in development)
 - [PlazaNet Mobile Client](https://github.com/PlazaNetOrg/ClientMobile) — Android & iOS app (planned)
 - [PlazaNet PS Vita Client](https://github.com/PlazaNetOrg/ClientVita) — PlayStation Vita app (planned)
 - [PlazaNet 3DS Client](https://github.com/PlazaNetOrg/Client3DS) — Nintendo 3DS app (planned)
@@ -43,10 +43,11 @@ No time to read everything? Jump straight in:
 
 ### Clients
 
-- ~~**[GamePlaza](https://github.com/PlazaNetOrg/GamePlaza)**~~ _(Development currently paused)_  
-  A game launcher with optional Accounts and PlazaNet integration.  
+- **[GamePlaza](https://github.com/PlazaNetOrg/GamePlaza)** _(Rewritten in Dart — nearing beta release)_  
+  A game launcher for Android with optional Accounts and PlazaNet integration.  
   Launches games, browses PlazaNet content, and shows friends' online status.  
-  ![Godot](https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=GodotEngine&logoColor=white)
+  ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+  ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 
 - ~~**[ClientMobile](https://github.com/PlazaNetOrg/ClientMobile)**~~ _(Development not started)_  
   Cross-platform mobile app for Android and iOS.  
